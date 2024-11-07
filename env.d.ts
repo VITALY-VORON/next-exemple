@@ -3,5 +3,6 @@ namespace NodeJS {
         SITE_NAME: string;
         SITE_DESCRIPTION: string;
         APP_URL: string;
+        API_URL: string;
     }
 }

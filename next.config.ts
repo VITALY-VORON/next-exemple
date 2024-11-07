@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     SITE_NAME: process.env.SITE_NAME,
     SITE_DESCRIPTION: process.env.SITE_DESCRIPTION,
     APP_URL: process.env.APP_URL,
+    API_URL: process.env.API_URL
   },
 
   // Международализация (i18n)

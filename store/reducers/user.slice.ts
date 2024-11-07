@@ -1,6 +1,5 @@
-import { authService } from "@/api/services/auth/auth.service";
-import { TLoginUser, TRegisterUser } from "@/schemas/Auth.schema";
-import { TUser } from "@/schemas/User.schema";
+import { authService } from "@/api/services/auth";
+import { TLoginUser, TRegisterUser, TUser } from "@/schemas";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 

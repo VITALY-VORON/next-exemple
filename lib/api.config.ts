@@ -1,4 +1,4 @@
-export const SERVER_URL = "http://localhost:4200/api/v1"
+export const SERVER_URL = process.env.API_URL
 
 export const API_URL = {
 	root: (url = '') => `${url ? url : ''}`,

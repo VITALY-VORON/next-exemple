@@ -1,9 +1,9 @@
 import Cookies from 'js-cookie'
 
 import { saveToStorage, EnumTokens, removeFromStorage, EnumStorage } from './token.service'
-import { TAuthResponse, TLoginUser } from '@/schemas/Auth.schema'
+import { TAuthResponse, TLoginUser } from '@/schemas'
 import { axiosClassic } from '@/api/axios'
-import { API_URL } from '@/lib/api.config'
+import { API_URL } from '@/lib'
 
 class AuthService {
 	async main(type: 'login' | 'register', data: TLoginUser) {
